@@ -26,6 +26,33 @@
                   <Image url="@../../../NewSportShop/src/sportshop/login-user-icon.png" />
                </image>
             </ImageView>
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="280.0" style="-fx-background-color: #5d5f5d;" text="Login using facebook">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" top="75.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="280.0" style="-fx-background-color: #5d5f5d;" text="Login using Google">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="280.0" style="-fx-background-color: #5d5f5d;" text="Login using linkdin">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
          </children></VBox>
       <Label layoutX="51.0" layoutY="42.0" prefHeight="30.0" prefWidth="129.0" text="User Login">
          <font>
@@ -71,8 +98,8 @@
       <CheckBox layoutX="317.0" layoutY="265.0" mnemonicParsing="false" text="Remind me" />
       <Pane layoutX="2.0" layoutY="391.0" prefHeight="109.0" prefWidth="526.0" style="-fx-background-color: #737ca1;">
          <children>
-            <Button layoutX="27.0" layoutY="42.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #bcc6cc;" text="NEW USER " />
-            <Button layoutX="349.0" layoutY="42.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="163.0" style="-fx-background-color: #bcc6cc;" text="FORGET PASSWORD ?" />
+            <Button layoutX="27.0" layoutY="42.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #5d5f5d;" text="NEW USER " />
+            <Button layoutX="349.0" layoutY="42.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="163.0" style="-fx-background-color: #5d5f5d;" text="FORGET PASSWORD ?" />
          </children>
       </Pane>
    </children>
